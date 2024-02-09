@@ -4,4 +4,4 @@ const coffeeStock = {
   liberica: 200,
 };
 
-module.export = coffeeStock;
+module.exports = coffeeStock;

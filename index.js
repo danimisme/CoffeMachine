@@ -5,3 +5,7 @@ console.log("Mencampurkan air dan kopi");
 console.log("Menuangkan kopi ke dalam gelas");
 console.log("Menuangkan susu ke dalam gelas");
 console.log("Kopi Anda sudah siap!");
+
+const coffeeStock = require("./state");
+
+console.log(coffeeStock);
