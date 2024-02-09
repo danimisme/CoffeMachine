@@ -1,4 +1,4 @@
-const coffeeStock = require("./state");
+const { coffeeStock, isCoffeeMachineReady } = require("./state");
 
 const maceCoffee = (type, miligrams) => {
   if (coffeeStock[type] >= miligrams) {
@@ -8,5 +8,8 @@ const maceCoffee = (type, miligrams) => {
   }
 };
 
-maceCoffee("robusta", 80);
-maceCoffee("arabica", 150);
+// maceCoffee("robusta", 80);
+// maceCoffee("arabica", 150);
+
+console.log(coffeeStock);
+console.log(isCoffeeMachineReady);
