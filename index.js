@@ -1,4 +1,4 @@
-import coffeeStock from "./state.js";
+import { coffeeStock, isCoffeeMachineReady } from "./state.js";
 
 // const { coffeeStock, isCoffeeMachineReady } = require("./state");
 
@@ -20,3 +20,4 @@ const displayStock = (stock) => {
 // maceCoffee("arabica", 150);
 
 console.log(displayStock(coffeeStock));
+console.log(isCoffeeMachineReady);
